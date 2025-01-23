@@ -42,10 +42,10 @@ btn.addEventListener('click', () => {
     }).then((result) => {
         if (result.isConfirmed) {
             // User chose PDF
-            triggerDownload('/documents/GBENLE GBOLAHAN HASSAN CV.pdf', 'Downloading PDF...');
+            triggerDownload('/documents/GBENLE GBOLAHAN HASSAN FRONTEND DEVELOPER.pdf', 'Downloading PDF...');
         } else if (result.dismiss === Swal.DismissReason.cancel) {
             // User chose Word
-            triggerDownload('/documents/GBENLE GBOLAHAN HASSAN CV.docx', 'Downloading Word...');
+            triggerDownload('/documents/GBENLE GBOLAHAN HASSAN FRONTEND DEVELOPER.docx', 'Downloading Word...');
         }
     });
 });
@@ -78,3 +78,6 @@ window.addEventListener('scroll', function () {
         hireMeBtn.classList.remove('fixed-btn');
     }
 });
+
+
+
